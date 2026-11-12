@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "专注清单（离线版）",
+  "version": "1.0.3",
+  "description": "番茄钟 & 任务清单 & 番茄工作法：管理工作日程和学习计划，培养专注习惯。完全离线，所有数据只保存在本地浏览器。",
+  "action": {
+    "default_title": "专注清单 — 点击打开",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": []
+}
